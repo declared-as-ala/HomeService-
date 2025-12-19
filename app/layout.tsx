@@ -17,11 +17,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "HomeService - Trouvez des Services à Domicile Fiables",
   description: "Connectez-vous avec des techniciens professionnels dans votre région. Comparez les prix et les avis pour trouver le service parfait pour vos besoins.",
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 5,
-  },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
 };
 
 export default function RootLayout({
